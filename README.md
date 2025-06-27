@@ -177,4 +177,4 @@ If you see "Import could not be resolved" errors:
 
 ## 📄 License
 
-Part of the BrainBoost ecosystem. See main project for licensing details. 
+Part of the BrainBoost ecosystem. See main project for licensing details.
