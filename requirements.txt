@@ -1,0 +1,31 @@
+# BrainBoost core dependencies
+-e file:///brainboost/packages/subjective_abstract_data_source_package
+-e file:///brainboost/packages/brainboost_data_source_logger_package
+-e file:///brainboost/packages/brainboost_configuration_package
+
+# Google API dependencies (required for Gmail functionality)
+google-auth>=2.0.0
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.1.0
+google-api-python-client>=2.0.0
+
+# Progress bar library (optional, for enhanced user experience)
+alive-progress>=3.1.0
+
+# Encryption library for secure credential storage
+cryptography>=3.4.0
+
+# Standard library dependencies (included with Python, listed for documentation)
+# These are already part of Python standard library:
+# - os
+# - sys
+# - json
+# - base64
+# - argparse
+# - re
+# - subprocess
+# - glob
+# - hashlib
+# - datetime
+# - email.mime.text
+# - email.mime.multipart

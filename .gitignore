@@ -1,0 +1,50 @@
+# Gmail Datasource - Sensitive Files
+# ================================
+
+# OAuth Token Files (contain user access tokens)
+token*.json
+*.token
+
+# Server Credentials (Google Cloud Project credentials)
+credentials.json
+secrets/
+*credentials*.json
+
+# Encrypted Credentials (still sensitive)
+.gmail_key
+.gmail_creds.enc
+
+# Processing State (may contain sensitive data)
+gmail_processing_state.json
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Environment Variables
+.env
+.env.local
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Context Files (may contain sensitive email content)
+context/
+*.context 
+
+gmail_accounts.json
+myenv/
