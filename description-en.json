@@ -7,7 +7,7 @@
       "title": "Gmail",
       "text": "Subjective Gmail Data Source A BrainBoost data source plugin for processing Gmail messages",
       "image": {
-        "src": "/gmail_datasource/icon.svg",
+        "src": "/subjective_gmail_datasource/icon.svg",
         "alt": "Gmail icon"
       },
       "list": [
