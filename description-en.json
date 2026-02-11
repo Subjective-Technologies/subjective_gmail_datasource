@@ -1,0 +1,67 @@
+{
+  "domainCategory": "Communication",
+  "subjectiveTechnologyElement": "DataSources",
+  "sections": [
+    {
+      "type": "splitList",
+      "title": "Gmail",
+      "text": "Subjective Gmail Data Source A BrainBoost data source plugin for processing Gmail messages",
+      "image": {
+        "src": "/gmail_datasource/icon.svg",
+        "alt": "Gmail icon"
+      },
+      "list": [
+        "Connection type: Gmail",
+        "Config fields: gmail_address, account_name, description, filter_type, recent_days, folder_name, search_query, max_messages, create_context, context_dir, show_progress, fresh_start, resume_enabled",
+        "Output: Writes BrainBoost context artifacts and emits structured items downstream."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Typical workflow",
+      "intro": "Configure Gmail with the connection fields and run it as part of a BrainBoost pipeline.",
+      "cards": [
+        {
+          "title": "Connect",
+          "text": "Provide gmail_address, account_name, description, filter_type, recent_days, folder_name, search_query, max_messages, create_context, context_dir, show_progress, fresh_start, resume_enabled in the connection form."
+        },
+        {
+          "title": "Fetch",
+          "text": "Run `fetch()` to ingest, transform, or stream data."
+        },
+        {
+          "title": "Consume",
+          "text": "Use the emitted items in downstream indexing, search, or automation steps."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "title": "FAQ",
+      "items": [
+        {
+          "q": "What do I need to configure?",
+          "a": "At minimum: gmail_address, account_name, description, filter_type, recent_days, folder_name, search_query, max_messages, create_context, context_dir, show_progress, fresh_start, resume_enabled. Additional fields may be optional depending on your use case."
+        },
+        {
+          "q": "What does it output?",
+          "a": "Writes BrainBoost context artifacts and emits structured items downstream."
+        },
+        {
+          "q": "Where does the data go?",
+          "a": "Outputs are emitted to downstream subscribers in the BrainBoost pipeline. Some datasources also write artifacts (context files, catalogs, or exports) locally based on your configuration."
+        }
+      ]
+    },
+    {
+      "type": "finalCta",
+      "title": "Ready to use Gmail?",
+      "text": "Add it to your BrainBoost pipeline and start ingesting.",
+      "primaryCta": {
+        "label": "Get Subjective Client",
+        "href": "/subjective-client-download"
+      },
+      "subtext": "Run this datasource locally with your own credentials and storage."
+    }
+  ]
+}
