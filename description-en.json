@@ -1,4 +1,5 @@
 {
+  "description": "Ingests Gmail messages using configurable filters (query, folder, recent days), optionally builds context artifacts, and emits structured email records for BrainBoost pipelines.",
   "domainCategory": "Communication",
   "subjectiveTechnologyElement": "DataSources",
   "publisher": "BrainBoost Ltd.",
@@ -9,9 +10,9 @@
     {
       "type": "splitList",
       "title": "Gmail",
-      "text": "Subjective Gmail Data Source A BrainBoost data source plugin for processing Gmail messages",
+      "text": "Ingests Gmail messages using configurable filters (query, folder, recent days), optionally builds context artifacts, and emits structured email records for BrainBoost pipelines.",
       "image": {
-        "src": "/subjective_gmail_datasource/icon.svg",
+        "src": "/gmail_datasource/icon.svg",
         "alt": "Gmail icon"
       },
       "list": [
