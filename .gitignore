@@ -47,4 +47,5 @@ context/
 *.context 
 
 gmail_accounts.json
-myenv/
+myenv/.venv/
+venv/
